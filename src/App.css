@@ -6,13 +6,31 @@
   justify-content: space-around; */
 }
 
+.dropdown {
+  padding-top: 200px;
+  padding-left: 80vh;
+  position: relative;
+  border: none;
+}
+
 .dropdown-field {
   background-color: white;
   height: 30px;
   width: 300px;
   color: black;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   padding: 5px;
+}
+
+.state-panel {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  width: auto;
+  height: 400px;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-y: auto;
 }
 
