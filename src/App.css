@@ -7,8 +7,7 @@
 }
 
 .dropdown {
-  padding-top: 200px;
-  padding-left: 80vh;
+  padding: 200px;
   position: relative;
   border: none;
 }
@@ -26,11 +25,26 @@
 .state-panel {
   position: absolute;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   width: auto;
-  height: 400px;  
+  height: 300px;  
+  margin-top: 3px;
+  border-radius: 2px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   overflow-y: auto;
+}
+
+.state-panel fieldset{
+  border: none;
+  margin: 2px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.selected-field {
+  background-color: #9ee8e8;
 }
 
